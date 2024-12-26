@@ -1,0 +1,204 @@
+body{
+    background-color: rgb(200, 222, 224)
+
+}
+
+header{
+    background-color: rgb(111, 111, 188);
+    color:rgb(242, 239, 239); 
+    font-family: Arial, Helvetica, sans-serif; /* Estilo de la fuente */
+    font-size: 16px;  
+    font-size: 16px; 
+    height: 100px;
+    padding: 10px 100px 10px 100px;
+    margin: 1px 30px 1px 30px;
+
+    display: flex;   
+    justify-content: space-between; 
+
+    align-items: center;      
+}
+
+.MainImage{
+    height: 80px;
+    margin: 10px 30px 10px;
+}
+
+.ShoppingCartImage{
+    height: 40px;
+    width:  40px;
+}
+
+.menu{
+    background-color: rgb(42, 41, 101);
+    height: 50px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(1, 1, 1);;
+    padding: 10px 100px 10px 100px;
+    margin: 1px 30px 0px 30px;
+
+    display: flex; /* Hacemos que los elementos dentro se alineen en fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    gap:400px;
+}
+
+.Publicity{
+    height: 100px;
+    background-image: linear-gradient(to bottom, #381663, #51447a, #474a5e);
+    /*background-color: rgb(50, 52, 140);*/
+    margin: 0px 30px 10px 30px;
+
+
+}
+
+.ProductsMoreSells{
+    background-color: #d6e0e4;
+    height: 420px;
+ 
+    margin: 10px 30px 10px 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:  rgb(1, 1, 1);
+    padding: 10px 20px 10px 20px;
+}
+
+.GridOffers{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+}
+
+.GridItemOffers{
+ 
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    height: 300px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.GridItemOffers:hover{
+    cursor: pointer; 
+}
+
+.GridItemOffers:hover p{
+    color: rgb(27, 16, 122);
+}
+
+.GridItemOffersP{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.GridCategories{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+}
+
+.GridItemCategories{
+ 
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    height: 150px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.Categories{
+    height: 420px;
+    background-color: #d6e0e4;
+    margin: 10px 30px 10px 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:  rgb(1, 1, 1);
+    padding: 10px 20px 10px 20px;
+}
+
+.MoreSells{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 30px 10px 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:  rgb(1, 1, 1);
+    padding: 10px 20px 10px 20px;
+}
+
+footer{
+    background-color: rgb(184, 184, 197);
+    height: 100px;
+    margin: 10px 30px 10px 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color:  rgb(1, 1, 1);
+    padding: 10px 70px 10px 20px;
+}
+
+
+.menu ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea los elementos de la lista en fila */
+  }
+
+  .menu li {
+    margin: 0 20px; /* Espaciado entre los elementos del menú */
+  }
+
+.LetraEnlaces{
+    color:rgb(242, 239, 239); /* Color del enlace */
+    font-family: Arial, Helvetica, sans-serif; /* Estilo de la fuente */
+    font-size: 16px; /* Tamaño de la fuente */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.IngresoProductoTexto{
+    width: 400px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(1, 1, 1);
+    font-size: 16px;
+    border: 0;
+    padding: 10px;
+    outline: none;
+}
+
+.IngresoProductoTexto:hover{
+   
+}
+
+.IngresoProductoBoton{
+    width: 30px;
+    height: 31px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.IngresoProductoBoton img{
+    width: 30px;
+    height: 30px;
+    
+}
