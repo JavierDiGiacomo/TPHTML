@@ -49,7 +49,40 @@ header{
     background-image: linear-gradient(to bottom, #381663, #51447a, #474a5e);
     /*background-color: rgb(50, 52, 140);*/
     margin: 0px 30px 10px 30px;
+}
 
+.About{
+    height: 280px;
+    background-color: #d6e0e4;
+
+    margin: 10px 30px 10px 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:  rgb(1, 1, 1);
+    padding: 10px 20px 10px 20px;
+
+    display: flex;   
+    justify-content:center; 
+
+    align-items: center;  
+    gap:100px;
+}
+
+.AboutImage{
+    width: 400px;
+    height: 300px;
+
+}
+
+.AboutText{
+    width: 300px;
+    height: 100px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:  rgb(1, 1, 1);
+    padding: 10px 20px 10px 20px;
 
 }
 
@@ -147,7 +180,7 @@ header{
 
 footer{
     background-color: rgb(184, 184, 197);
-    height: 100px;
+    height: 50px;
     margin: 10px 30px 10px 30px;
 
     font-family: Arial, Helvetica, sans-serif;
